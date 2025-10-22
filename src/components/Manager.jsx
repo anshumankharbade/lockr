@@ -206,7 +206,7 @@ const Manager = () => {
                   {passwordArray.map((item, index) => {
                     return (
                       <tr key={index}>
-                        <td className="text-center py-2 border border-white">
+                        <td className="text-center py-2 border border-white px-2 text-sm md:px-4 md:text-base">
                           <div className="flex items-center justify-center">
                             <a href={item.site} target="_blank">
                               {item.site}
@@ -230,7 +230,7 @@ const Manager = () => {
                             </div>
                           </div>
                         </td>
-                        <td className="text-center py-2 border border-white px-2 text-sm md:px-4 md:py-2 md:text-base">
+                        <td className="text-center py-2 border border-white px-2 text-sm md:px-4 md:text-base">
                           <div className="flex items-center justify-center">
                             <span>{item.username}</span>
                             <div
@@ -274,7 +274,7 @@ const Manager = () => {
                             </div>
                           </div>
                         </td>
-                        <td className="text-center py-2 border border-white gap-2 px-2 text-sm md:px-4 md:py-2 md:text-base">
+                        <td className="text-center py-2 border border-white gap-2 px-8 text-sm md:px-4 md:text-base">
                           <span
                             className="cursor-pointer mx-1"
                             onClick={() => {
