@@ -125,7 +125,7 @@ const Manager = () => {
         <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-gray-400 opacity-20 blur-[100px]"></div>
       </div>
 
-      <div className="p-2 md:px-0 md:mycontainer md:w-[60%] w-auto m-auto min-h-[88vh] ">
+      <div className="p-2 md:px-0 md:mycontainer md:w-[60%] w-auto m-auto ">
         <h1 className="text-3xl font-bold text-center">
           <span className="text-green-600">&lt;</span>
           Lock
