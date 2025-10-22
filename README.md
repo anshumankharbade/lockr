@@ -1,25 +1,28 @@
 # LockR - React Password Manager
 
-A lightweight, secure, and easy-to-use password manager built using **React 19** and **Vite**. LockR allows users to store and manage their passwords locally on their device using `localStorage`, ensuring privacy and offline availability.
+A lightweight and privacy-focused password manager built with **React 19** and **Vite**, designed to store your credentials securely in `localStorage` so your data never leaves your device.
+
+## 🔗 Live Demo
+> (https://lockr-d8bnh0s1u-anshumankharbades-projects.vercel.app/)
 
 ## 🚀 Features
-- ✅ Add and save passwords with **site name**, **username**, and **password**
-- ✏️ Edit saved credentials
-- ❌ Delete existing credentials
+- ✅ Add and save passwords including **site**, **username**, and **password**
+- ✏️ Edit stored credentials
+- ❌ Delete saved passwords
 - 👁️ Show/Hide password toggle
-- 📋 Copy password to clipboard
-- 💾 Data stored securely in `localStorage`
-- 🔔 Toast notifications using React Toastify
+- 📋 Copy to clipboard
+- 💾 localStorage persistence
+- 🔔 Toast notifications via React Toastify
 
 ## 🛠️ Tech Stack
 | Technology     | Usage                   |
 |----------------|--------------------------|
 | React 19       | Frontend UI library      |
-| Vite           | Development tool/bundler |
+| Vite           | Dev server & bundler     |
 | Tailwind CSS   | Styling framework        |
-| React Toastify | Notifications            |
+| React Toastify | Toast notifications      |
 | UUID           | Unique ID generation     |
-| ESLint         | Code quality and linting |
+| ESLint         | Code linting (dev only)  |
 
 ## 📦 Installation
 ```bash
@@ -30,18 +33,24 @@ cd lockr
 # Install dependencies
 npm install
 
-# Run the development server
+# Start development server
 npm run dev
 ```
 
 ## 📘 Usage
 1. Open the application in your browser.
-2. Enter site name, username, and password in the input fields.
-3. Click **Save** to store the password.
-4. Use **Edit** to update credentials or **Delete** to remove them.
-5. Toggle **Show/Hide** to view or hide the password.
-6. Use the **Copy** button to copy the password to clipboard.
+2. Add a site, username, and password.
+3. Click **Save** to store credentials.
+4. Use **Edit** or **Delete** to manage entries.
+5. Toggle **Show/Hide** for visibility.
+6. Click **Copy** to clipboard.
 
+
+## 🤝 Contributing
+1. Fork this repository
+2. Create a new feature branch
+3. Commit changes
+4. Open a pull request
 
 ---
 Made with ❤️ using React and Vite.
