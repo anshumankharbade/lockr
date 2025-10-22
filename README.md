@@ -3,7 +3,7 @@
 A lightweight and privacy-focused password manager built with **React 19** and **Vite**, designed to store your credentials securely in `localStorage` so your data never leaves your device.
 
 ## 🔗 Live Demo
-> (https://lockr-d8bnh0s1u-anshumankharbades-projects.vercel.app/)
+> (https://lockr-pi.vercel.app/)
 
 ## 🚀 Features
 - ✅ Add and save passwords including **site**, **username**, and **password**
